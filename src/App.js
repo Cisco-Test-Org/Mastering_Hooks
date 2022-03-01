@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import HookCounter from './compopnents/HookCounter';
 import HookCounter2 from './compopnents/HookCounter2';
+import HookCounter3 from './compopnents/HookCounter3';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <HookCounter />
       <hr/>
       <HookCounter2 />
+      <hr/>
+      <HookCounter3 />
     </div>
   );
 }
